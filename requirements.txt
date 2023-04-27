@@ -27,7 +27,7 @@ google-pasta==0.2.0
 google-resumable-media==2.4.1
 googleapis-common-protos==1.58.0
 grpcio==1.51.3
-grpcio-status==1.51.3
+grpcio-status<=1.51.3
 gunicorn==20.1.0
 h5py==3.8.0
 html5lib==0.9999999
@@ -49,7 +49,7 @@ opt-einsum==3.3.0
 packaging==23.0
 Pillow==9.4.0
 proto-plus==1.22.2
-protobuf==4.21.6
+protobuf==3.19.6
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.21
