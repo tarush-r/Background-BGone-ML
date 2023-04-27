@@ -19,7 +19,7 @@ model = tf.keras.models.load_model('./model.h5')
 
 
 cred = credentials.Certificate(
-    '../keystone-295p-firebase-adminsdk-elgsn-2497393882.json')
+    './keystone-295p-firebase-adminsdk-elgsn-2497393882.json')
 initialize_app(cred, {'storageBucket': 'keystone-295p.appspot.com'})
 bucket = storage.bucket()
 
