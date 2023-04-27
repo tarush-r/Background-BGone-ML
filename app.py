@@ -12,9 +12,10 @@ import cv2
 from datetime import datetime, timedelta
 from flask_cors import CORS, cross_origin
 import urllib
+import urllib.request
 
-
-model = tf.keras.models.load_model('https://media.githubusercontent.com/media/tarush-r/Background-BGone-ML/main/model.h5')
+urllib.request.urlretrieve('https://media.githubusercontent.com/media/tarush-r/Background-BGone-ML/main/model.h5', 'model.h5')
+model = tf.keras.models.load_model('./model.h5')
 
 
 cred = credentials.Certificate(
