@@ -14,7 +14,7 @@ Flask==2.2.3
 Flask-Cors==3.0.10
 flatbuffers==23.3.3
 gast==0.4.0
-google-api-core>=2.11.0
+google-api-core
 google-api-python-client==2.80.0
 google-auth==2.16.2
 google-auth-httplib2==0.1.0
